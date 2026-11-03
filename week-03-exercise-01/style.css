@@ -1,0 +1,35 @@
+/* Universal Box-Sizing Rule */
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Personal Card Styling */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 4px solid #000000;
+}
+
+/* Heading Styling */
+.card h1 {
+    color: #cc0000;
+    font-size: 32px;
+    margin: 0 0 20px 0;
+}
+
+/* Biography Styling */
+.card p {
+    color: #333333;
+    font-size: 18px;
+    margin: 0;
+}
